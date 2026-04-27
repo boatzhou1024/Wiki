@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
 
   // 网页标题favicon
-  head: [['link', { rel: 'icon', href: '/yang.png' }]],
+  head: [['link', { rel: 'icon', href: '/images/yang.png' }]],
 
   // 网站标题和描述
   title: 'BoatZhou的Wiki',
@@ -21,7 +21,7 @@ export default defineConfig({
   themeConfig: {
 
     // 网站logo
-    logo: '/yang.png',
+    logo: '/images/yang.png',
     // 网站标题
     siteTitle: 'BOATZHOU',
 
