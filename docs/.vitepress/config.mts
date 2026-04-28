@@ -39,10 +39,17 @@ export default defineConfig({
           text: '代理工具',
           collapsed: true,
           items: [
-            { text: 'Flclash', link: '/course/flclash' },
-            { text: 'ShadowRocket', link: '/course/shadowrocket' },
+            { text: 'Flclash', link: '/course/proxy/flclash' },
+            { text: 'ShadowRocket', link: '/course/proxy/shadowrocket' },
           ]
-        }
+        },
+        {
+          text: '人工智能',
+          collapsed: false,
+          items: [
+            { text: '部署OpenClaw', link: '/course/ai/openClaw' },
+          ]
+        },
       ],
       '/experience/': [
         {
